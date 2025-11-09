@@ -5,69 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>HOUSEMOOD | Home</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
-<style>
-:root{--brand-bg:#ffffff;--text:#fff}
-body, html {
-  margin: 0; padding: 0; height: 100%;
-  font-family: 'Inter', 'Montserrat', Arial, sans-serif;
-  background: var(--brand-bg);
-  color: var(--text);
-}
-.hero-section {
-  width: 100%;
-  height: 420px;
-  background: url('assets/TP Housemood/hero.avif') center top/cover no-repeat;
-  position: relative;
-  display: flex;
-  align-items: stretch;
-  justify-content: flex-start;
-  color: #ffffff;
-}
-.hero-inner {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 480px;
-  padding: 28px 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-}
-.header h2 {
-  margin: 0 0 6px 0;
-  font-weight: 600;
-  font-size: 1.15rem;
-}
-.header .since {
-  font-weight: 700;
-  font-size: 1rem;
-  margin-top: 6px;
-}
-.main-title {
-  margin-top: auto;
-  margin-bottom: 8px;
-  font-size: clamp(2.2rem, 9vw, 4.6rem);
-  font-weight: 800;
-  line-height: 0.95;
-  color: #fff;
-  text-transform: none;
-}
-.main-title .highlight {
-  color: #f3e7d1;
-  font-weight: 800;
-  display: block;
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="hero-section">
-  <div class="hero-inner">
-    <div class="header">
-      <h2>We Craft Interiors</h2>
-      <div class="since">Since 2014</div>
-    </div>
-    <div class="main-title">Your House<br>is the Place<br><span class="highlight">of Mood</span></div>
-  </div>
+    
+  <div class="bg-image"></div>
+  <div class="hero-section" aria-hidden="true">
+    <div class="hero-inner">
+      <div class="menu-bar">
+        <div class="logo">
+            <img src="assets/TP Housemood/version=menu.svg" alt="Logo" />
+        <div class="menu-icon" aria-hidden="true">
+        </div>
+      </div>
+      <div class="header">
+        <h2>We Craft Interiors</h2>
+        <div class="since">Since 2014</div>
+      </div>
+      <div class="services">
+        Tech Specifications<br>
+        Design Project<br>
+        3D visualisation
+      </div>
+      <div class="main-title">
+  Your House<br>
+  is the Place<br>
+  <span class="highlight">of Mood</span>
 </div>
-</body>
-</html>

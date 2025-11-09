@@ -1,0 +1,69 @@
+:root {
+  --brand-bg: #ffffff;
+  --text: #fff;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', 'Montserrat', Arial, sans-serif;
+  background: var(--brand-bg);
+  color: var(--text);
+}
+
+.hero-section {
+  width: 100%;
+  height: 420px;
+  background: url('assets/TP Housemood/hero.avif') center top/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 480px;
+  padding: 28px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.header h2 {
+  margin: 0 0 6px 0;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.header .since {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 6px;
+  color: #EEE0C5;
+}
+
+.main-title {
+  margin-top: auto;
+  margin-bottom: 8px;
+  font-size: clamp(2.2rem, 9vw, 4.6rem);
+  font-weight: 800;
+  line-height: 0.95;
+  color: #fff;
+  text-transform: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.main-title .highlight {
+  color: #EEE0C5;
+  font-weight: 800;
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
